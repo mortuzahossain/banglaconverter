@@ -1,0 +1,329 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html><head>
+
+<meta http-equiv="pragma" content="no-cache">
+<meta http-equiv="cache-control" content="no-store">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="Content-Language" content="bn-bd">
+<link href="index_files/sonarbangladesh.css" rel="stylesheet" type="text/css">
+<link href="index_files/sonarbangladesh.css" rel="stylesheet" type="text/css">
+<title>Bangla Font Converter: Bijoy to Unicode | Unicode to Bijoy | Bijoy to Unicode Converter</title>
+
+
+
+<!-- LOAD EXTERNEL SCRIPTS                                    -->
+<!-- ******************************************************** -->
+<script src="index_files/bn.js" type="text/javascript"></script>
+<script src="index_files/en.js" type="text/javascript"></script>
+<script src="index_files/chmap.js" type="text/javascript"></script>
+<script src="index_files/common.js" type="text/javascript"></script>
+<script src="index_files/converter.js" type="text/javascript"></script>
+<script src="index_files/rconverter.js" type="text/javascript"></script>
+<script src="index_files/avrodict.js" type="text/javascript"></script>
+<script src="index_files/layout.js" type="text/javascript"></script>
+<script type="text/javascript">var L="bnw2";</script>
+
+<script src="index_files/cookies.js" type="text/javascript"></script>
+<script src="index_files/sizer.js" type="text/javascript"></script>
+<!-- ******************************************************** -->
+
+
+
+
+
+
+<!-- INTERFACE RELATED FUNCTIONS, CONSTANTS                   -->
+<!-- ******************************************************** -->
+<script type="text/javascript"> var en="eZ";var t="bangla";var aH=false;var aA=aY;function co(){for(var dX in aA){var as=document.getElementById(dX);if(as.type=="button"){as.value=aA[dX];}else{as.innerHTML=aA[dX];}}};function ax(lang){var as;if(lang==1){aA=cH;as=document.getElementById("cI");as.innerHTML="English";as=document.getElementById("cR");as.innerHTML="<a href=\"javascript:ax(2);\">বাংলা</a>";}else if(lang==2){aA=aY;as=document.getElementById("cI");as.innerHTML="<a href=\"javascript:ax(1);\">English</a>";as=document.getElementById("cR");as.innerHTML="বাংলা";}co();};function ak(eO){if(eO==1){cA("aN");cw("ct");cA("cq");aH=true;}else{cw("aN");cw("cq");cA("ct");aH=false;}};function A(){var g=document.getElementsByName('M');var bK=document.getElementById("aN");if(o==aG||al==true)g[0].checked=true;else if(o>2) g[o-2].checked=true;if(o==cx)bK.innerHTML=af("bangla");else if(o==by)bK.innerHTML=af("unijoy");else if(o==cz)bK.innerHTML=af("probhat");else if(o==aT)bK.innerHTML=af("somewherein");else if(o==ap)bK.innerHTML=af("avro");else if(o==at)bK.innerHTML=af("bornosoft");if(o==aG||al==true)cw("aN");else if(aH==true){cA("aN");av(document.getElementById("CharacteMapTable"),aB,aj);}};function dH(){var g=document.getElementsByName('O');if(t=="bangla"){g[0].checked=true;}else if(t=="somewherein"){g[1].checked=true;}else if(t=="boisakhi"){g[2].checked=true;}else if(t=="bangsee"){g[3].checked=true;}else if(t=="bornosoft"){g[4].checked=true;}else if(t=="phonetic"){g[5].checked=true;}else if(t=="htmlsafehex"){g[6].checked=true;}else if(t=="htmlsafedec"){g[7].checked=true;}};function I(event){var g=document.getElementsByName('M');for(var ae=0;ae<g.length;ae++){if(g[ae].checked){al=false;if(ae)o=ae+2;else o=ae+1; A();var cV=document.getElementById(en);cV.focus();break;}}};function ck(ec){var w=document.getElementById(ec).value;w=cM(t,w);ag(document.getElementById(en),w);};function cB(ec){var w=document.getElementById(en).value;w=cX(t,w);ag(document.getElementById(ec),w);};function dh(eN){var ee=document.getElementById(eN);ee.value="";ee.focus();};function aL(){var g=document.getElementsByName('O');var J=document.getElementById('bm');if(t=="bangla"){J.style.fontFamily="SutonnyMJ";J.style.width=400;g[0].checked=true;}else if(t=="somewherein"){J.style.fontFamily="SushreeMJ";J.style.width=400;g[1].checked=true;}else if(t=="boisakhi"){J.style.fontFamily="Boishakhi";J.style.width=400;g[2].checked=true;}else if(t=="bangsee"){J.style.fontFamily="Bangsee Alpona";J.style.width=400;g[3].checked=true;}else if(t=="bornosoft"){J.style.fontFamily="Falgun";J.style.width=400;g[4].checked=true;}else if(t=="phonetic"){J.style.fontFamily="Times New Roman";J.style.width=400;g[5].checked=true;}else if(t=="htmlsafehex"||t=="htmlsafedec"){J.style.fontFamily="Times New Roman";J.style.width=400;g[6].checked=true;}};function P(event){var g=document.getElementsByName('O');for(var ae=0;ae<g.length;ae++){if(g[ae].checked){if(ae==0)t="bangla";else if(ae==1)t="somewherein";else if(ae==2)t="boisakhi";else if(ae==3)t="bangsee";else if(ae==4)t="bornosoft";else if(ae==5)t="phonetic";else if(ae==6)t="htmlsafehex";else if(ae==7)t="htmlsafedec";break;}}aL();};function dG(){var cp=90;if(aA==cH)aq(L+"language","english",cp,"/","");if(aA==aY)aq(L+"language","bangla",cp,"/","");aq(L+"layout",o,cp,"/","");aq(L+"converter",t,cp,"/","");aq(L+"showhelp",aH,cp,"/","");};function dE(){var ez=aw(L+"language");if(ez=="english")ax(1);else ax(2);o=aw(L+"layout");if(o==null)o=2;t=aw(L+"converter");if(t==null)t="bangla";var eC=aw(L+"showhelp");if(eC=="true")ak(1);else ak(2);};function eE(){aI(L+"language","/","");aI(L+"layout","/","");aI(L+"converter","/","");aI(L+"showhelp","/","");};function dZ(){dE();A();aL();var cV=document.getElementById(en);var bU=document.getElementById("dD");if(eJ){bU.innerHTML="If you can't see Bangla, please download Unicode Bangla Font <a href=fonts/SutonnyBanglaOMJ.ttf>from here</a>.";cV.style.fontFamily="SutonnyBanglaOMJ";}else{bU.innerHTML="If you can't see Bangla, please download Unicode Bangla Font <a href=fonts/SutonnyBanglaOMJ.ttf>from here</a>.";cV.style.fontFamily="SutonnyBanglaOMJ";}cV.style.width=400;var J=document.getElementById('bm');J.style.width=400;di();};function dk(){dG();} </script>
+<!-- ******************************************************** -->
+
+
+
+
+<!-- STYLE ELEMENTS                                           -->
+<!-- ******************************************************** -->
+<style type="text/css">
+.bangla {
+	font-family: BNG, SutonnyBanglaOMJ, SolaimanLipi;
+}
+.english {
+	font-family: "Times New Roman", Times, serif;
+}
+</style>
+<!-- ******************************************************** -->
+
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-33786068-1']);
+  _gaq.push(['_setDomainName', '1newsbd.com']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'stats.g.doubleclick.net/dc.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+
+</head>
+<body topmargin="0" onload="dZ()" onunload="dk()" marginheight="0">
+
+
+
+<table style="font-size: 20px;" align="center" border="1" cellpadding="0" cellspacing="0" width="1005">
+<tbody><tr style="font-size: 20px;"><td style="font-size: 20px;" width="1001">
+<!--[if IE]>
+<style type="text/css">
+
+@font-face {
+	font-family: SolaimanLipi;
+	font-size: 14px;
+	font-weight: normal;
+	src: url(SOLAIMA0.eot);
+}
+
+</style> 
+<![endif]-->
+<link href="index_files/sonarbangladesh.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+<!--
+.style30 {font-size: xx-small}
+.style31 {font-size: 13px}
+-->
+</style>
+
+
+
+
+	
+<div style="width: 1000px; font-size: 20px;" align="center">
+<table style="font-size: 20px;" no="" align="center" background="index_files/menu.png" bgcolor="" border="0" cellpadding="0" cellspacing="0" height="100" width="1000">
+  <tbody><tr style="font-size: 20px;" align="center" height="100px">
+      <td style="font-size: 20px;" colspan="2" height="100" nowrap="nowrap" valign="middle" width="210"></td>
+
+  </tr>
+  <tr style="font-size: 20px;">
+  
+</tr></tbody></table>
+</div>
+
+
+
+</td></tr>
+<tr style="font-size: 20px;"><td style="font-size: 20px;">
+<table style="font-size: 20px;" width="100%">
+<tbody>
+<tr style="font-size: 20px;"><td style="font-size: 20px;" colspan="5" class="banglaheading1">
+<center>
+  <span style="font-size: 20px;" id="de">বাংলা ফন্ট কনভার্টার: ইউনিকোড, বিজয়, বৈশাখী</span>
+</center>
+
+</td></tr>
+<tr style="font-size: 20px;">
+
+<td style="font-size: 20px;" width="85%"><span style="font-size: 20px;" id="cF"></span></td>
+
+
+
+
+
+
+<!-- LANGUAGE SELECTOR -->
+
+
+</tr>
+</tbody></table>
+
+
+<!-- UNICODE EDITOR OPTIONS -->
+<!-- ******************************************************** -->
+<form id="dm">
+
+
+  <div style="font-size: 20px;" align="center"><span style="font-size: 20px;" id="bQ"><span style="font-size: 20px;" class="bangla">প্রথম বক্সটিতে নির্দিষ্ট যেকোন একটি কীবোর্ড লেআউট সিলেক্ট করে ইউনিকোড ভিত্তিক বাংলা লিখতে পারেন।</span></span><br>
+  
+
+  
+</div>
+  <center>
+
+<table style="font-size: 20px;">
+<tbody><tr style="font-size: 20px;">
+<td style="font-size: 20px;">
+
+<!-- KEYBOARD SELECTOR FOR UNICODE EDITOR -->
+<!-- ******************************************************** -->
+
+
+<input style="font-size: 20px;" name="M" value="Unijoy" onclick="return I(event);" type="radio">
+<span style="font-size: 20px;" id="dv"><span style="font-size: 20px;" class="bangla">ইউনিজয়</span></span>
+
+<input style="font-size: 20px;" name="M" value="Probhat" onclick="return I(event);" type="radio">
+<span style="font-size: 20px;" id="dp"><span style="font-size: 20px;" class="bangla">প্রভাত</span></span>
+
+<input style="font-size: 20px;" name="M" value="SomewhereinPhonetic" onclick="return I(event);" type="radio">
+<span style="font-size: 20px;" id="dq"><span style="font-size: 20px;" class="bangla">সামহোয়্যার-ইন</span></span>
+
+<input style="font-size: 20px;" name="M" value="AvroPhonetic" onclick="return I(event);" type="radio">
+<span style="font-size: 20px;" id="dr"><span style="font-size: 20px;" class="bangla">অভ্র</span></span>
+
+<input style="font-size: 20px;" name="M" value="Bornosoft" onclick="return I(event);" type="radio">
+<span style="font-size: 20px;" id="dz"><span style="font-size: 20px;" class="bangla">বর্ণসফট</span></span>
+
+<!-- ******************************************************** -->
+
+
+
+</td><td style="font-size: 20px;">| [</td><td style="font-size: 20px;">
+
+
+
+
+<!-- HELP LABEL -->
+<!-- ******************************************************** -->
+<a style="font-size: 20px;" href="javascript:ak(1);">
+<div id="ct" style="display: block; font-size: 20px;">
+<span style="font-size: 20px;" id="cG"><span style="font-size: 20px;" class="bangla"></span></span>
+</div>
+</a>
+
+<a style="font-size: 20px;" href="javascript:ak(2);">
+</a><div id="cq" style="display: none; font-size: 20px;"><a style="font-size: 20px;" href="javascript:ak(2);">
+<span style="font-size: 20px;" id="cD"><span style="font-size: 20px;" class="bangla"></span></span></a><a style="font-size: 20px;">সাহায্য সরাও</a>
+</div>
+<!-- ******************************************************** -->
+
+
+</td><td style="font-size: 20px;">]</td></tr>
+</tbody></table>
+
+</center>
+</form>
+<!-- ******************************************************** -->
+
+
+
+
+
+
+
+<center><table style="font-size: 20px;" width="100%">
+<tbody><tr style="font-size: 20px;"><td style="font-size: 20px;">
+
+<!-- IMAGE LABEL FOR UNICODE EDITOR -->
+
+
+
+<!-- THE UNICODE EDITOR -->
+<!-- ******************************************************** -->
+<div style="font-size: 20px;" align="center">
+  <textarea onkeydown="return dn(event);" onkeypress="return dg(event);" id="eZ" style="font-size: 20px; font-family: SutonnyBanglaOMJ; width: 800px;" rows="12" cols="100"> </textarea>
+  <!-- ******************************************************** -->
+  
+
+  
+</div></td>
+</tr>
+</tbody></table>
+</center>
+
+
+
+
+
+
+<!-- THE CHARACTER MAP  -->
+<!-- ******************************************************** -->
+<center>
+<div id="aN" style="display: none; font-size: 20px;"><b style="font-size: 20px;"><span style="font-size: 20px;" class="bangla"><a style="font-size: 20px;" href="http://www.ekushey.org/">ইউনিজয়</a> কির্বোড:</span></b><br><span style="font-size: 20px;" class="bangla"></span><span style="font-size: 20px;" class="english"></span><span style="font-size: 20px;" class="bangla"></span><span style="font-size: 20px;" class="english"></span><table style="font-size: 20px;" id="CharacteMapTable" border="1" cellspacing="0"><tbody><tr style="font-size: 20px;" align="center"><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%95');">ক</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%96');">খ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%97');">গ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%98');">ঘ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%99');">ঙ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%9A');">চ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%9B');">ছ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%9C');">জ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%9D');">ঝ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%9E');">ঞ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%9F');">ট</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%A0');">ঠ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%A1');">ড</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%A2');">ঢ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%A3');">ণ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%A4');">ত</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%A5');">থ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%A6');">দ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%A7');">ধ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%A8');">ন</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%AA');">প</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%AB');">ফ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%AC');">ব</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%AD');">ভ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%AE');">ম</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%AF');">য</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%B0');">র</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%B2');">ল</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%B6');">শ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%B7');">ষ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%B8');">স</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%B9');">হ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A7%8E');">ৎ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A7%9C');">ড়</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A7%9D');">ঢ়</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A7%9F');">য়</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%81');">ঁ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%82');">ং</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%83');">ঃ</a></td></tr><tr style="font-size: 20px;" align="center"><td style="font-size: 20px;">j</td><td style="font-size: 20px;">J</td><td style="font-size: 20px;">o</td><td style="font-size: 20px;">O</td><td style="font-size: 20px;">q</td><td style="font-size: 20px;">y</td><td style="font-size: 20px;">Y</td><td style="font-size: 20px;">u</td><td style="font-size: 20px;">U</td><td style="font-size: 20px;">I</td><td style="font-size: 20px;">t</td><td style="font-size: 20px;">T</td><td style="font-size: 20px;">e</td><td style="font-size: 20px;">E</td><td style="font-size: 20px;">B</td><td style="font-size: 20px;">k</td><td style="font-size: 20px;">K</td><td style="font-size: 20px;">l</td><td style="font-size: 20px;">L</td><td style="font-size: 20px;">b</td><td style="font-size: 20px;">r</td><td style="font-size: 20px;">R</td><td style="font-size: 20px;">h</td><td style="font-size: 20px;">H</td><td style="font-size: 20px;">m</td><td style="font-size: 20px;">w</td><td style="font-size: 20px;">v</td><td style="font-size: 20px;">V</td><td style="font-size: 20px;">M</td><td style="font-size: 20px;">N</td><td style="font-size: 20px;">n</td><td style="font-size: 20px;">i</td><td style="font-size: 20px;">|</td><td style="font-size: 20px;">p</td><td style="font-size: 20px;">P</td><td style="font-size: 20px;">W</td><td style="font-size: 20px;">&amp;</td><td style="font-size: 20px;">Q</td><td style="font-size: 20px;">\</td></tr><tr style="font-size: 20px;" align="center"><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%85');">অ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%86');">আ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%BE');">া</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%87');">ই</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%BF');">ি</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%88');">ঈ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A7%80');">ী</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%89');">উ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A7%81');">ু</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%8A');">ঊ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A7%82');">ূ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%8F');">এ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A7%87');">ে</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%90');">ঐ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A7%88');">ৈ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%93');">ও</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A7%8B');">ো</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%94');">ঔ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A7%8C');">ৌ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%8B');">ঋ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A7%83');">ৃ</a></td><td style="font-size: 20px;"></td><td style="font-size: 20px;"></td><td style="font-size: 20px;"></td><td style="font-size: 20px;"></td><td style="font-size: 20px;"></td><td style="font-size: 20px;"></td><td style="font-size: 20px;"></td><td style="font-size: 20px;"></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A7%8D');">যুক্ত</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A7%8D%E2%80%8C');">হসন্ত</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A7%8D%E0%A6%B0');">র-ফলা</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A7%8D%E0%A6%AC');">ব-ফলা</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A7%8D%E0%A6%AF');">য-ফলা</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A6%B0%E0%A7%8D');">রেফ</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E2%80%8D');">zwj</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E2%80%8C');">zwnj</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A5%A4');">।</a></td><td style="font-size: 20px;"><a style="font-size: 20px;" href="javascript:ag(eZ,%20'%E0%A5%A5');">॥</a></td></tr><tr style="font-size: 20px;" align="center"><td style="font-size: 20px;">F</td><td style="font-size: 20px;">gf</td><td style="font-size: 20px;">f</td><td style="font-size: 20px;">gd</td><td style="font-size: 20px;">d</td><td style="font-size: 20px;">gD</td><td style="font-size: 20px;">D</td><td style="font-size: 20px;">gs</td><td style="font-size: 20px;">s</td><td style="font-size: 20px;">gS</td><td style="font-size: 20px;">S</td><td style="font-size: 20px;">gc</td><td style="font-size: 20px;">c</td><td style="font-size: 20px;">gC</td><td style="font-size: 20px;">C</td><td style="font-size: 20px;">gx</td><td style="font-size: 20px;">x</td><td style="font-size: 20px;">gX</td><td style="font-size: 20px;">X</td><td style="font-size: 20px;">ga</td><td style="font-size: 20px;">a</td><td style="font-size: 20px;"></td><td style="font-size: 20px;"></td><td style="font-size: 20px;"></td><td style="font-size: 20px;"></td><td style="font-size: 20px;"></td><td style="font-size: 20px;"></td><td style="font-size: 20px;"></td><td style="font-size: 20px;"></td><td style="font-size: 20px;">g</td><td style="font-size: 20px;">g`</td><td style="font-size: 20px;">z</td><td style="font-size: 20px;">gh</td><td style="font-size: 20px;">Z</td><td style="font-size: 20px;">A</td><td style="font-size: 20px;">~</td><td style="font-size: 20px;">`</td><td style="font-size: 20px;">G</td><td style="font-size: 20px;">gG</td></tr></tbody></table>যুক্তাক্ষর লিখতে "ব্যাঞ্জনবর্ণ g ব্যাঞ্জনবর্ণ" চাপুন। যেমন: ক্ষ লিখতে চাপুন kgN।<br>			র‌্য (র-য-ফলা) লিখতে র+`+য-ফলা চাপুন। যেমন: র‌্যাব (RAB) লিখতে চাপুন v`ZFh।			<br>কোন কোন ক্ষেত্রে ফায়ারফক্সের <a style="font-size: 20px;" href="https://bugzilla.mozilla.org/show_bug.cgi?id=274152">এই বাগের জন্য</a> ঠিকমত দেখতে দুবার ` চাপুন।<br><br>বাংলা থেকে ইংরেজীতে টাইপ করতে Esc চাপুন। দ্বিতীয়বার Esc চাপলে আবার বাংলা ফিরে আসবে।<br>                  Ctl+Alt চেপে B চাপলে বিজয়, P চাপলে সামহোয়্যার-ইন ফোনেটিক, A চাপলে অভ্র ফোনেটিক<br>		  U চাপলে ইউনিজয়, V চাপলে প্রভাত আসবে।<br><br>		  <a style="font-size: 20px;" href="/cdn-cgi/l/email-protection#8df8e9fbffece3f9e2cdf4ece5e2e2a3eee2e0">মুর্শেদের</a>		  <a style="font-size: 20px;" href="http://bnwebtools.sourceforge.net/">কির্বোড লেআউট <span style="font-size: 20px;" class="bangla">২.১.০ আলফা ১</span> (<span style="font-size: 20px;" class="bangla">সেপ্টেম্বর ১৮, ২০০৭</span>)</a></div>
+</center>
+<!-- ******************************************************** -->
+
+
+
+
+<hr style="height: 1px;" noshade="noshade">
+<div id="er" style="display: block; font-size: 20px;">
+<form name="eB">
+
+  <div style="font-size: 20px;" align="center">
+    <p style="font-size: 20px;">ইউনিকোড ছাড়া প্রচলিত বাংলায় লেখা টেক্সট ইউনিকোডে পরিবর্তনের জন্য 
+দ্বিতীয় বক্সে কপি করুন ও দ্বিতীয় বক্সের উপরে এটি কোন ধরনের টেকস্ট সেটি 
+সিলেক্ট করুন । এরপরে ‘Convert to Unicode' বাটনটি চাপুন , আপনার ইউনিকোড 
+টেক্সটটি পেয়ে যাবেন উপরের ইউনিকোড এডিটরে । </p>
+    <br>
+  </div>
+  <center>
+
+<!-- CONVERT TEXT AREA OPTION  -->
+<!-- ******************************************************** -->
+<input style="font-size: 20px;" name="O" value="Bijoy" checked="checked" onclick="return P(event);" type="radio">
+<span style="font-size: 20px;" id="dK"><span style="font-size: 20px;" class="bangla">বিজয়</span></span>
+
+<input style="font-size: 20px;" name="O" value="Somewherein" onclick="return P(event);" type="radio">
+<span style="font-size: 20px;" id="dL"><span style="font-size: 20px;" class="bangla"><a style="font-size: 20px;" href="http://bnwebtools.sourceforge.net/fonts/Sushree.ttf">সামহোয়ার-ইন টেকস্ট</a></span></span>
+
+<input style="font-size: 20px;" name="O" value="Boisakhi" onclick="return P(event);" type="radio">
+<span style="font-size: 20px;" id="dI"><span style="font-size: 20px;" class="bangla"><a style="font-size: 20px;" href="http://bnwebtools.sourceforge.net/fonts/boishakhi.ttf">বৈশাখী</a></span></span>
+
+<input style="font-size: 20px;" name="O" value="Bangsee" onclick="return P(event);" type="radio">
+<span style="font-size: 20px;" id="dJ"><span style="font-size: 20px;" class="bangla"><a style="font-size: 20px;" href="http://bnwebtools.sourceforge.net/fonts/BngsAlpn.ttf">বংশী</a></span></span>
+
+<input style="font-size: 20px;" name="O" value="Bornosoft" onclick="return P(event);" type="radio">
+<span style="font-size: 20px;" id="dW"><span style="font-size: 20px;" class="bangla"><a style="font-size: 20px;" href="http://bnwebtools.sourceforge.net/fonts/falgun.ttf">বর্ণসফট</a></span></span>
+
+<input style="font-size: 20px;" name="O" value="Phonetic" onclick="return P(event);" type="radio">
+<span style="font-size: 20px;" id="dN"><span style="font-size: 20px;" class="bangla">ফোনেটিক</span></span>
+
+<!-- ******************************************************** -->
+
+
+
+
+
+
+<table style="font-size: 20px;" width="100%">
+<tbody><tr style="font-size: 20px;"><td style="font-size: 20px;">
+
+
+<!-- IMAGE LABEL FOR CONVERTER TEXTAREA -->
+
+
+
+
+<!-- THE CONVERTER TEXT AREA -->
+<!-- ******************************************************** -->
+<div style="font-size: 20px;" align="center">
+  <textarea cols="100" rows="12" id="bm" style="font-size: 20px; font-family: SutonnyMJ; width: 800px;"></textarea>
+  <!-- ******************************************************** -->
+  
+
+</div></td>
+</tr>
+</tbody></table>
+
+
+<!-- THE BUTTONS FOR CONVERTING -->
+<!-- ******************************************************** -->
+<input style="font-size: 20px;" id="dc" name="eF" value="Convert to Unicode" onclick="ck('bm');" type="button">
+
+<input style="font-size: 20px;" id="db" name="ea" value="Convert to Old Fonts" onclick="cB('bm');" type="button">
+
+<input style="font-size: 20px;" id="cu" name="eK" value="Refresh" onclick="dh('bm');" type="button">
+<!-- ******************************************************** -->
+
+
+
+</form>
+<!-- End Bravenet.com Service Code -->
+<!-- ******************************************************** -->
+</div>
+
+</td></tr></tbody></table>
+
+
+
+<script type="text/javascript">/* <![CDATA[ */(function(d,s,a,i,j,r,l,m,t){try{l=d.getElementsByTagName('a');t=d.createElement('textarea');for(i=0;l.length-i;i++){try{a=l[i].href;s=a.indexOf('/cdn-cgi/l/email-protection');m=a.length;if(a&&s>-1&&m>28){j=28+s;s='';if(j<m){r='0x'+a.substr(j,2)|0;for(j+=2;j<m&&a.charAt(j)!='X';j+=2)s+='%'+('0'+('0x'+a.substr(j,2)^r).toString(16)).slice(-2);j++;s=decodeURIComponent(s)+a.substr(j,m-j)}t.innerHTML=s.replace(/</g,'&lt;').replace(/>/g,'&gt;');l[i].href='mailto:'+t.value}}catch(e){}}}catch(e){}})(document);/* ]]> */</script></body></html>

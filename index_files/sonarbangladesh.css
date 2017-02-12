@@ -1,0 +1,254 @@
+body{
+	background: #1aceee;
+}
+.banglanormal {
+	font-family: SolaimanLipi;
+	font-size: 18px;
+	color: #000000;
+	font-style: normal;
+	url:(SOLAIMA0.eot);
+}
+.banglatitle {
+	font-family: SolaimanLipi;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	text-decoration: underline;
+	color: #333399;
+	url:(SOLAIMA0.eot);
+}
+.banglatitlewhite {
+	font-family: SolaimanLipi;
+	font-size: 18px;
+	font-style: normal;
+	line-height: normal;
+	text-decoration: underline;
+	color: #FFFFFF;
+	url:(SOLAIMA0.eot);
+}
+
+.engtitle {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	color: #333399;
+}
+.engtitlewhite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	text-decoration: underline;
+	color: #FFFFFF;
+
+}
+.engnormal {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-style: normal;
+
+	}
+.engwhite {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+	font-style: normal;	
+
+}.banglabwhite {
+	font-family: SolaimanLipi;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: normal;
+	url:(SOLAIMA0.eot);
+}
+.banglaheading1 {
+	font-family: SolaimanLipi;
+	font-size: 30px;
+	color: #336600;
+	font-style: normal;
+	url:(SOLAIMA0.eot);
+}
+.banglaheading2 {
+	font-family: SolaimanLipi;
+	font-size: 24px;
+	color: #CC0000;
+	font-style: normal;
+	url:(SOLAIMA0.eot);
+}
+.engheading1 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #336600;
+	font-style: normal;
+}
+.engheading2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #CC0000;
+	font-style: normal;
+}
+.banglanormalblink {
+	font-family: SolaimanLipi;
+	font-size: 18px;
+	color: #0000FF;
+	font-style: normal;
+	text-decoration: blink;
+	url:(SOLAIMA0.eot);
+}
+.banglanormalred {
+
+	font-family: SolaimanLipi;
+	font-size: 18px;
+	color: #CC3300;
+	font-style: normal;
+	url:(SOLAIMA0.eot);
+}
+.banglanormalgold {
+
+
+	font-family: SolaimanLipi;
+	font-size: 18px;
+	color: #CC9933;
+	font-style: normal;
+	url:(SOLAIMA0.eot);
+}
+.column_heading{
+	background:#718CA5; 
+	border:1px #E5E5E5 solid;
+	padding:1px;
+	margin-top:1px;
+	margin-bottom:1px;
+	text-align:center;
+	font-family: SolaimanLipi;
+	font-size: 18px;
+	color: #FFFFFF;
+	font-style: normal;
+	font-weight: normal;
+	url:(SOLAIMA0.eot);
+}
+.hiddentext {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 8px;
+	color: #d5eaff;
+	font-style: normal;
+
+	}
+h1 {
+	font-family: SolaimanLipi;
+	font-size: 30px;
+	color: #336600;
+	font-style: normal;
+	font-weight: normal ;
+	url:(SOLAIMA0.eot);
+	margin: 0 0 0px;
+	padding: 0 0 0px;	
+}
+h3 {
+	font-family: SolaimanLipi;
+	font-size: 24px;
+	color: #CC0000;
+	font-style: normal;
+	font-weight: normal ;
+	url:(SOLAIMA0.eot);
+	margin: 0 0 0px;
+	padding: 0 0 0px;
+}
+h2 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 24px;
+	color: #336600;
+	font-style: normal;
+	font-weight: normal ;
+	margin: 0 0 0px;
+	padding: 0 0 0px;	
+}
+h4 {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: #CC0000;
+	font-style: normal;
+	font-weight: normal ;
+	margin: 0 0 0px;
+	padding: 0 0 0px;
+}
+a:link, a:visited, a:active {
+	color: #275572;
+	text-decoration: underline;
+}
+a:hover {
+	color: #275572;
+	text-decoration: underline;
+}.banglanormalnews {
+	font-family: SolaimanLipi;
+	font-size: 16px;
+	color: #000000;
+	font-style: normal;
+
+	url:(SOLAIMA0.eot);
+	border-bottom-style: groove;
+}
+.engnormalnews {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #000000;
+	font-style: normal;
+	border-bottom-style: groove;
+
+	}
+	.newssource {
+	font-family: SolaimanLipi;
+	font-size: 12px;
+	color: #000000;
+	font-style: italic;
+
+	url:(SOLAIMA0.eot);
+
+}.notice {
+	font-family: SolaimanLipi;
+	font-size: 18px;
+	color: #000000;
+	font-style: normal;
+
+	url:(SOLAIMA0.eot);
+	padding-right: 10px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+.noticetitle {
+	font-family: SolaimanLipi;
+	font-size: 30px;
+	color: #999933;
+	font-style: normal;
+
+	url:(SOLAIMA0.eot);
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-top: 10px;
+	font-weight: bold;
+	text-decoration: blink;
+}
+.previssuecaption {
+	font-family: SolaimanLipi;
+	font-size: 18px;
+	color: #000000;
+	font-style: normal;
+
+
+	url:(SOLAIMA0.eot);
+	font-weight: bold;
+	border-top-width: medium;
+	border-right-width: medium;
+	border-bottom-width: medium;
+	border-left-width: medium;
+	border-top-style: groove;
+	border-top-color: #778A76;
+	border-right-color: #778A76;
+	border-bottom-color: #778A76;
+	border-left-color: #778A76;
+}
+.notice_border
+{
+border-bottom-style: groove;
+}
